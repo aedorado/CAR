@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if g++ $1; then
+        echo 'Compilation Success..'
+        echo 'Running output file..'
+        echo 'Please enter your input..'
+        ./a.out
+fi
